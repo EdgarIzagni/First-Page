@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  background: #bbbbbb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #000000;
+  font-size: 28px;
+}
+
+aside {
+  width: 30%;
+  padding: 50px 0 0 25px;
+  background: #afafaf;
+}
+
+aside .titulo {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+aside ul {
+  margin: 0 40px;
+}
+
+aside ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 300;
+}
+
+aside ul li a:hover {
+  color: #2610f3;
+}
+
+section {
+  background: #ebebeb;
+  width: 70%;
+  padding-top: 25px;
+}
+
+section .secciones {
+  width: 90%;
+  margin: 20px 40px;
+}
+
+section .titulo {
+  width: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+section .contenido {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 27px;
+}
+
+section a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+section a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+section img {
+  width: 70%;
+  padding: 0 40px;
+  margin: auto;
+}
+
+section ol,
+section ul {
+  margin: 30px 20px;
+}
+
+section ol li,
+section ul li {
+  margin-bottom: 10px;
+}
+
+section figure {
+  text-align: center;
+}
+
+section figure figcaption {
+  margin: 20px 0;
+  color: #818181;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+  aside {
+    display: none;
+  }
+  section {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
